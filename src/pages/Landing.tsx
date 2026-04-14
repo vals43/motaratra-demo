@@ -109,7 +109,7 @@ export default function Landing() {
             >
               <div className="absolute inset-0 bg-gradient-to-t from-primary/10 to-transparent rounded-lg"></div>
               <img
-                src="/super-soco.jpg"
+                src="/https://res.cloudinary.com/djdd9mgvp/image/upload/q_auto/f_auto/v1776148765/super-soco_yreasq.jpg"
                 alt="Super Soco Electric Motorcycle"
                 className="w-full h-full object-cover rounded-lg shadow-xl"
               />

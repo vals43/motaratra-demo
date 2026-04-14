@@ -11,7 +11,7 @@ export default function Inventory() {
     {
       id: '1',
       name: 'Super Soco TC Max',
-      image: '/super-soco.jpg',
+      image: 'https://res.cloudinary.com/djdd9mgvp/image/upload/q_auto/f_auto/v1776148765/super-soco_yreasq.jpg',
       price: '$2,999',
       specs: {
         range: '80 km',
@@ -24,7 +24,7 @@ export default function Inventory() {
     {
       id: '2',
       name: 'Niu NQi Pro',
-      image: '/niu.jpg',
+      image: 'https://res.cloudinary.com/djdd9mgvp/image/upload/q_auto/f_auto/v1776148897/niu_wk1bwv.jpg',
       price: '$3,499',
       specs: {
         range: '100 km',
