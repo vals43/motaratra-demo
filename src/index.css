@@ -1,0 +1,46 @@
+@import 'tailwindcss';
+
+@theme {
+  /* On lie tes variables CSS au moteur de Tailwind v4 */
+  --color-background: rgb(var(--background));
+  --color-foreground: rgb(var(--foreground));
+  --color-primary: rgb(var(--primary));
+  --color-primary-foreground: rgb(var(--primary-foreground));
+  --color-secondary: rgb(var(--secondary));
+  --color-secondary-foreground: rgb(var(--secondary-foreground));
+  --color-accent: rgb(var(--accent));
+  --color-accent-foreground: rgb(var(--accent-foreground));
+  --color-muted: rgb(var(--muted));
+  --color-muted-foreground: rgb(var(--muted-foreground));
+  --color-border: rgb(var(--border));
+  --radius-lg: var(--radius);
+}
+
+:root {
+  --background: 255 255 255;
+  --foreground: 10 10 10;
+  --primary: 76 175 80;
+  --primary-foreground: 255 255 255;
+  --secondary: 0 188 212;
+  --secondary-foreground: 255 255 255;
+  --accent: 0 188 212;
+  --accent-foreground: 255 255 255;
+  --muted: 240 240 240;
+  --muted-foreground: 100 100 100;
+  --border: 230 230 230;
+  --radius: 0.5rem;
+}
+
+/* On utilise les utilitaires standards maintenant qu'ils sont définis */
+@layer base {
+  * {
+    @apply border-solid;
+    border-color: rgb(var(--border));
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  html {
+    @apply bg-background;
+  }
+}
