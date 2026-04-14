@@ -49,7 +49,7 @@ export default function Landing() {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
         {/* Background gradient effect */}
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-secondary/5 to-transparent"></div>
+        <div className="absolute inset-0 bg-linear-to-br from-primary/5 via-secondary/5 to-transparent"></div>
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -107,9 +107,9 @@ export default function Landing() {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="relative h-96 md:h-full"
             >
-              <div className="absolute inset-0 bg-gradient-to-t from-primary/10 to-transparent rounded-lg"></div>
+              <div className="absolute inset-0 bg-linear-to-t from-primary/10 to-transparent rounded-lg"></div>
               <img
-                src="/https://res.cloudinary.com/djdd9mgvp/image/upload/q_auto/f_auto/v1776148765/super-soco_yreasq.jpg"
+                src="https://res.cloudinary.com/djdd9mgvp/image/upload/q_auto/f_auto/v1776148765/super-soco_yreasq.jpg"
                 alt="Super Soco Electric Motorcycle"
                 className="w-full h-full object-cover rounded-lg shadow-xl"
               />
